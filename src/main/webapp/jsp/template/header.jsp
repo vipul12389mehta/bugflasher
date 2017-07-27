@@ -1,4 +1,3 @@
-
 <%
 	//String contextPath=IConstant.contextPath.valueOf("PROD").getValue();
 	String contextPath="/wwhackamole.herokuapp.com";
