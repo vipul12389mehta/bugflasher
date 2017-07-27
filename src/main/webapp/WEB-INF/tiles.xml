@@ -15,4 +15,9 @@
         <put-attribute name="title" value="Whack A Mole" />
         <put-attribute name="content" value="/jsp/content/home.jsp" />
     </definition>
+    
+	<definition name="playGamePage" extends="homeDefinition">
+        <put-attribute name="title" value="Whack A Mole" />
+        <put-attribute name="content" value="/jsp/content/board/boardN.jsp" />
+    </definition>
 </tiles-definitions>
