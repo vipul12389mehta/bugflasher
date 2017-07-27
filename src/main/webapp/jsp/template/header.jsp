@@ -1,7 +1,7 @@
 
 <%
 	//String contextPath=IConstant.contextPath.valueOf("PROD").getValue();
-	String contextPath="wwhackamole.herokuapp.com";
+	String contextPath="/wwhackamole.herokuapp.com";
 %>
 
 <script type="text/javascript" src="<%=contextPath %>/js/jquery-3.2.1.min.js"></script>
