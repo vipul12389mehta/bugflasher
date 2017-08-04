@@ -3,7 +3,7 @@ package com.vipul.wam.util;
 public interface IConstant {
 	
 	enum contextPath{   
-		PROD("wwhackamole.herokuapp.com"), LOCAL("wwhackamole");
+		PROD("/wwhackamole.herokuapp.com"), LOCAL("/wwhackamole");
 		
 		private String value;
 		
