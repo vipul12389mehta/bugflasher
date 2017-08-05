@@ -3,10 +3,10 @@
 	String contextPath=IConstant.contextPath.valueOf(IConstant.environment).getValue();
 %>
 
-<script type="text/javascript" src="<%=contextPath %>/js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="<%=contextPath %>/js/common.js"></script>
-<script type="text/javascript" src="<%=contextPath %>/js/createBoard.js"></script>
-<script type="text/javascript" src="<%=contextPath %>/js/controller.js"></script>
+<script type="text/javascript" src="<%=contextPath %>js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="<%=contextPath %>js/common.js"></script>
+<script type="text/javascript" src="<%=contextPath %>js/createBoard.js"></script>
+<script type="text/javascript" src="<%=contextPath %>js/controller.js"></script>
 
 <script type="text/javascript">
 	var contextPath = "<%=contextPath %>";
