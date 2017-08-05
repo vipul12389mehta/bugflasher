@@ -1,9 +1,9 @@
 package com.vipul.wam.util;
 
-public interface IConstant {
+public abstract class IConstant {
 	
-	enum contextPath{   
-		PROD("/wwhackamole.herokuapp.com"), LOCAL("/wwhackamole");
+	public enum contextPath{   
+		PROD("/"), LOCAL("/wwhackamole.herokuapp.com");
 		
 		private String value;
 		
@@ -15,4 +15,6 @@ public interface IConstant {
 			return value;
 		} 
 	}
+	
+	public static String environment = contextPath.LOCAL.toString();
 }

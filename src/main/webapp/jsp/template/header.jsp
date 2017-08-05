@@ -1,6 +1,6 @@
 <%@page import="com.vipul.wam.util.IConstant"%>
 <%
-	String contextPath=IConstant.contextPath.valueOf("PROD").getValue();
+	String contextPath=IConstant.contextPath.valueOf(IConstant.environment).getValue();
 %>
 
 <script type="text/javascript" src="<%=contextPath %>/js/jquery-3.2.1.min.js"></script>

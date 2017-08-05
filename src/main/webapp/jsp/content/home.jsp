@@ -8,6 +8,6 @@ WELCOME TO WHACK A MOLE GAME<br><br><br>
 <script type="text/javascript">
 
 function navigateToUrl(url){
-	window.location.href = "/"+contextPath+url;
+	window.location.href = contextPath+url;
 }
 </script>
